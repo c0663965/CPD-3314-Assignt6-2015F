@@ -2,6 +2,8 @@
 
 This repo contains starting files and automated unit tests for a selection of exercises based on Chapter 5 of the [textbook for this course](http://www.pearsonhighered.com/educator/product/Starting-Out-with-Java-From-Control-Structures-through-Objects-5E/9780132855839.page).
 
+*NOTE*: The testing files will not compile until you have created all five method signatures for the five required methods. Do this first. Fill in the methods later.
+
 ## Methods
 
 To retrieve these files and work with them:

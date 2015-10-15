@@ -61,10 +61,22 @@ public class CPD3314Assign5Test {
         double fahrenheit = 32;
         double expected = 0.00;
         double result = CPD3314Assign5.celsius(fahrenheit);
-        assertEquals("Testing if celsius(fahrenheit) produces accurate result.",
+        assertEquals("Testing if celsius(32) produces accurate result of zero.",
                 result, expected, 0.0001);
     }
 
+    /**
+     * Test of celsius method, of class CPD3314Assign5.
+     */
+    @Test
+    public void testCelsiusBoiling() {
+        double fahrenheit = 212;
+        double expected = 100.00;
+        double result = CPD3314Assign5.celsius(fahrenheit);
+        assertEquals("Testing if celsius(212) produces accurate result of 100.",
+                result, expected, 0.0001);
+    }
+    
     /**
      * Test of distance method, of class CPD3314Assign5.
      */
@@ -74,9 +86,22 @@ public class CPD3314Assign5Test {
         double speed = 60.0;
         double expected = 300.00;
         double result = CPD3314Assign5.distance(time, speed);
-        assertEquals("Testing if distance(time, speed) produces accurate result.",
+        assertEquals("Testing if distance(5, 60) produces accurate result of 300.",
                 result, expected, 0.0001);
-    }    
+    }
+    
+    /**
+     * Test of distance method, of class CPD3314Assign5.
+     */
+    @Test
+    public void testDistanceZero() {
+        double time = 5.00;
+        double speed = 0.0;
+        double expected = 0.00;
+        double result = CPD3314Assign5.distance(time, speed);
+        assertEquals("Testing if distance(5, 0) produces accurate result of zero.",
+                result, expected, 0.0001);
+    }
 
     /**
      * Test of isPrime method, of class CPD3314Assign5.
@@ -86,7 +111,7 @@ public class CPD3314Assign5Test {
         int input = 7;
         boolean expected = true;
         boolean result = CPD3314Assign5.isPrime(input);
-        assertEquals("Testing if isPrime(num) produces accurate result.",
+        assertEquals("Testing if isPrime(7) produces accurate result of true.",
                 result, expected);
     }
 
@@ -98,7 +123,7 @@ public class CPD3314Assign5Test {
         int input = 6;
         boolean expected = false;
         boolean result = CPD3314Assign5.isPrime(input);
-        assertEquals("Testing if isPrime(num) produces accurate result.",
+        assertEquals("Testing if isPrime(6) produces accurate result of false.",
                 result, expected);
     }
     
@@ -110,7 +135,7 @@ public class CPD3314Assign5Test {
         int input = 6;
         boolean expected = true;
         boolean result = CPD3314Assign5.isEven(input);
-        assertEquals("Testing if isEven(num) produces accurate result.",
+        assertEquals("Testing if isEven(6) produces accurate result of true.",
                 result, expected);
     }
 
@@ -122,7 +147,7 @@ public class CPD3314Assign5Test {
         int input = 7;
         boolean expected = false;
         boolean result = CPD3314Assign5.isEven(input);
-        assertEquals("Testing if isEven(num) produces accurate result.",
+        assertEquals("Testing if isEven(7) produces accurate result of false.",
                 result, expected);
     }
 }

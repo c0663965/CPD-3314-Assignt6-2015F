@@ -46,7 +46,7 @@ public class CPD3314Assign5 {
     }
 
     /*
-     * Exercise #2 - Retail Price Calculator
+     * Exercise #1 - Retail Price Calculator
      * 
      * Write a program that asks the user to enter an item's wholesale cost and 
      * its markup percentage. It should then display the item's retail price. 
@@ -63,13 +63,13 @@ public class CPD3314Assign5 {
     // TODO: Build the calculateRetail method here
     
     
-    public static void doExercise2() {
-        // TODO: Complete the rest of Exercise #2 here to test calculateRetail
+    public static void doExercise1() {
+        // TODO: Complete the rest of Exercise #1 here to test calculateRetail
 
     }
     
     /**
-     * Exercise #6 - Celsius Temperature Table
+     * Exercise #2 - Celsius Temperature Table
      * 
      * The formula for converting a temperature from Fahrenheit to Celsius is
      *     C = (5.0/9.0) * (F - 32)
@@ -82,13 +82,13 @@ public class CPD3314Assign5 {
     // TODO: Build the celsius method here
     
     
-    public static void doExercise6() {
-        // TODO: Complete the rest of Exercise #6 here to test celsius
+    public static void doExercise2() {
+        // TODO: Complete the rest of Exercise #2 here to test celsius
         
     }
 
     /*
-     * Exercise #9 - Distance Traveled Modification
+     * Exercise #3 - Distance Traveled Modification
      * 
      * The distance a vehicle travels can be calculated as follows:
      *   Distance = Speed * Time
@@ -102,13 +102,13 @@ public class CPD3314Assign5 {
     
     
     
-    public static void doExercise9() {
+    public static void doExercise3() {
         // TODO: Build the rest of exercise #9 here to test the distance method
 
     }
 
     /*
-     * Exercise #13 - isPrime Method
+     * Exercise #4 - isPrime Method
      * 
      * A prime number is a number that is evenly divisible only by itself and 1. 
      * For example, the number 5 is prime because it can be evenly divided only 
@@ -122,13 +122,13 @@ public class CPD3314Assign5 {
     
     
     
-    public static void doExercise13() {
+    public static void doExercise4() {
         // TODO: Build a sample program to test the isPrime method here
 
     }
 
     /*
-     * Exercise #15 - Even/Odd Counter
+     * Exercise #5 - Even/Odd Counter
      * 
      * You can use the following logic to determine if a number is even or odd:
      *   if ((number % 2) == 0) {
@@ -144,7 +144,7 @@ public class CPD3314Assign5 {
     
     
     
-    public static void doExercise15() {
+    public static void doExercise5() {
         // TODO: Build a sample program to test the isEven method here
 
     }
